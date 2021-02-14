@@ -1,5 +1,5 @@
 FROM openjdk:6
-COPY . /Users/nivedharajaram/Downloads/LDA/LDAScibot
+COPY scripts/. /Users/nivedharajaram/Downloads/LDA/LDAScibot
 WORKDIR /Users/nivedharajaram/Downloads/LDA/LDAScibot
 COPY scripts/run.sh /Users/nivedharajaram/Downloads/LDA/LDAScibot/run.sh
 RUN ["chmod", "+x", "/Users/nivedharajaram/Downloads/LDA/LDAScibot/run.sh"]
